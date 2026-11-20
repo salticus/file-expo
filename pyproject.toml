@@ -1,0 +1,8 @@
+[project]
+name = "fileencodinganimation"
+version = "0.1.0"
+description = "Animate a text file from hex bytes into its ASCII characters"
+requires-python = ">=3.12"
+dependencies = [
+    "pygame-ce>=2.5.8",
+]
