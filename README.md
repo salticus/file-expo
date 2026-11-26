@@ -1,14 +1,12 @@
-Vision: pipe in a file, identify the filetype, display an animation of the file sections and data.
+# File Expo
 
-Current Framework: pygame-ce
+Display the contents of a binary file in color, with explanations of the file type.
 
-Tools:
-    - uv
-    - linux `file` at /usr/bin/file
+Quickstart:
 
-Proof of concept:
+    uv run ./fileviz.py ./testfiles/hello-world-ascii
 
-    accept a file as an argument
-    run file on it; if the filetype is ASCII text, continue. otherwise exit
-    using pygame, display the content in hex, in rows of 64 bytes on the left hand of the screen
-    after a second, animate these byte encodings moving to the open space on the right of the hex encodings, then turn into their ascii character representations
+# Requirements
+
+uv https://docs.astral.sh/uv/getting-started/installation/
+
